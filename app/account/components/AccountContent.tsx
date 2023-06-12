@@ -15,6 +15,9 @@ const AccountContent = () => {
 
   const [loading, setLoading] = useState(false);
 
+  console.log(subscription);
+  
+
   useEffect(() => {
     if (!isLoading && !user) {
       router.replace('/');
